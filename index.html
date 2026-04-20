@@ -3,22 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ជីវប្រវត្តិផ្លូវការ | តី ឧត្តមបញ្ញា</title>
+    <title>ជីវប្រវត្តិលម្អិត | តី ឧត្តមបញ្ញា</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
-        :root { --primary: #002366; --secondary: #0044ff; --accent: #ffd700; --bg-light: #f8f9fa; }
-        body { font-family: 'Khmer OS Battambang', sans-serif; background-color: var(--bg-light); margin: 0; color: #2c3e50; line-height: 1.8; }
+        :root { --primary: #002366; --secondary: #0044ff; --accent: #ffd700; --bg: #f4f7f6; }
+        body { font-family: 'Khmer OS Battambang', sans-serif; background-color: var(--bg); margin: 0; color: #333; line-height: 2; }
         header { 
             background: linear-gradient(rgba(0,35,102,0.85), rgba(0,35,102,0.85)), url('https://i.ibb.co/q3XNmR2S/k1e4rx.jpg'); 
             background-size: cover; background-position: center; color: white; padding: 100px 20px; text-align: center; 
         }
-        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 6px solid white; box-shadow: 0 10px 25px rgba(0,0,0,0.3); object-fit: cover; margin-bottom: 20px; }
-        .container { max-width: 950px; margin: -60px auto 60px; background: white; padding: 60px; border-radius: 25px; box-shadow: 0 20px 50px rgba(0,0,0,0.1); }
-        h2 { color: var(--primary); border-left: 6px solid var(--accent); padding-left: 20px; margin-top: 50px; }
-        .timeline { border-left: 4px solid #e9ecef; margin: 40px 0 40px 20px; padding-left: 40px; position: relative; }
-        .timeline-item { margin-bottom: 50px; position: relative; }
-        .timeline-item::before { content: ""; background: var(--secondary); width: 22px; height: 22px; border-radius: 50%; position: absolute; left: -53px; top: 5px; border: 4px solid white; }
-        .year-tag { font-weight: bold; color: var(--secondary); background: #eef2ff; padding: 2px 15px; border-radius: 50px; display: inline-block; }
+        .profile-img { width: 180px; height: 180px; border-radius: 50%; border: 6px solid white; box-shadow: 0 5px 20px rgba(0,0,0,0.3); object-fit: cover; margin-bottom: 20px; }
+        .container { max-width: 950px; margin: -60px auto 60px; background: white; padding: 60px; border-radius: 20px; box-shadow: 0 15px 35px rgba(0,0,0,0.1); }
+        h2 { color: var(--primary); border-bottom: 3px solid var(--accent); display: inline-block; padding-bottom: 5px; margin-top: 40px; font-size: 1.6rem; }
+        .bio-text { text-indent: 50px; text-align: justify; margin-bottom: 25px; }
+        .timeline { border-left: 3px solid #eee; margin: 30px 0; padding-left: 30px; position: relative; }
+        .timeline-item { margin-bottom: 40px; position: relative; }
+        .timeline-item::before { content: ""; background: var(--secondary); width: 20px; height: 20px; border-radius: 50%; position: absolute; left: -43px; top: 10px; border: 4px solid white; }
+        .year { font-weight: bold; color: var(--secondary); font-size: 1.1rem; display: block; }
+        .role { font-weight: bold; color: var(--primary); font-size: 1.2rem; display: block; margin: 5px 0; }
+        .footer { text-align: center; padding: 40px; color: #888; font-size: 0.9rem; }
+        b { color: var(--primary); }
     </style>
 </head>
 <body>
@@ -26,28 +30,100 @@
 <header>
     <img src="https://i.ibb.co/q3XNmR2S/k1e4rx.jpg" alt="តី ឧត្តមបញ្ញា" class="profile-img">
     <h1>តី ឧត្តមបញ្ញា</h1>
-    <p>Computer Science Specialist | FFC U18 Coach</p>
+    <p>អ្នកឯកទេសវិទ្យាសាស្ត្រកុំព្យូទ័រ និង គ្រូបង្វឹកកីឡាជាន់ខ្ពស់</p>
 </header>
 
 <div class="container">
     <section>
-        <h2><i class="fas fa-history"></i> ប្រវត្តិកំណើត និងការរស់នៅ</h2>
-        <p>លោក <b>តី ឧត្តមបញ្ញា</b> កើតនៅឆ្នាំ ២០០៨ នាទីក្រុងប៉ារីស ប្រទេសបារាំង។ ឆ្នាំ ២០១០ បានផ្លាស់មករស់នៅភូមិស្វាយពង្រ្កង់ សង្កាត់កោះអន្លង់ចិន ក្រុងតាខ្មៅ ខេត្តកណ្ដាល。</p>
+        <h2><i class="fas fa-user-tie"></i> ប្រវត្តិកំណើត និងការរស់នៅ</h2>
+        <p class="bio-text">
+            លោក <b>តី ឧត្តមបញ្ញា</b> បានចាប់កំណើតនៅឆ្នាំ ២០០៨ នាទីក្រុងប៉ារីស ប្រទេសបារាំង។ បន្ទាប់មកនៅក្នុងឆ្នាំ ២០១០ លោកបានផ្លាស់ប្តូរមករស់នៅមាតុភូមិកម្ពុជាវិញ ដោយមានទីលំនៅបច្ចុប្បន្នស្ថិតនៅក្នុង ភូមិស្វាយពង្រ្កង់ សង្កាត់កោះអន្លង់ចិន ក្រុងតាខ្មៅ ខេត្តកណ្ដាល។
+        </p>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-graduation-cap"></i> ជីវប្រវត្តិការសិក្សា</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="year">២០១២</span>
+                <span class="role">សាលាបឋមសិក្សា École Jeannine Manuel (Paris)</span>
+                <p>ចាប់ផ្ដើមសិក្សាភាសាបារាំងដំបូងនៅទីក្រុងប៉ារីស ប្រទេសបារាំង។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០១៣ - ២០២១</span>
+                <span class="role">សាលាបឋមសិក្សា ហ៊ុន សែន កោះអន្លង់ចិន</span>
+                <p>បន្តការសិក្សាកម្រិតបឋមសិក្សានៅកម្ពុជា បន្ទាប់ពីផ្លាស់ទីលំនៅពីប្រទេសបារាំង។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០២២ - ២០២៥</span>
+                <span class="role">អនុវិទ្យាល័យ ហ.ស សេរីភាព</span>
+                <p>សិក្សាកម្រិតអនុវិទ្យាល័យ និងបានពង្រឹងសមត្ថភាពផ្នែកចំណេះដឹងទូទៅ។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០២៥</span>
+                <span class="role">អនុវិទ្យាល័យ ហ.ស តាខ្មៅ</span>
+                <p>ផ្លាស់ប្តូរសាលាបន្តការសិក្សា និងបានបញ្ចប់កម្រិតអនុវិទ្យាល័យដោយជោគជ័យ។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០២៦ - ២០២៨</span>
+                <span class="role">វិទ្យាល័យ ហ.ស តាខ្មៅ</span>
+                <p>បន្តការសិក្សាកម្រិតវិទ្យាល័យ និងបានប្រឡងបញ្ចប់សញ្ញាបត្រមធ្យមសិក្សាទុតិយភូមិ ដោយទទួលបាន<b>និទ្ទេស A+</b>។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០២៩ - ២០៣៦</span>
+                <span class="role">University of Paris Sciences et Lettres (PSL)</span>
+                <p>បន្តការសិក្សាថ្នាក់ឧត្តមសិក្សានៅសាកលវិទ្យាល័យស្រាវជ្រាវដ៏ល្បីល្បាញ PSL នាទីក្រុងប៉ារីស ប្រទេសបារាំង។</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2><i class="fas fa-hands-helping"></i> ប្រវត្តធ្វើយុវជនស្ម័គ្រចិត្ត</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <span class="year">២០២៤ - ២០២៦</span>
+                <span class="role">សមាជិកអង្គការ UNICEF Cambodia</span>
+                <p>ចូលរួមចំណែកក្នុងសកម្មភាពសង្គម និងជួយដល់កុមារនៅកម្ពុជា។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០២៣ - ២០២៦</span>
+                <span class="role">សមាជិកការិយាល័យយុវជន (មន្ទីរអប់រំ យុវជន និងកីឡា)</span>
+                <p>ចូលរួមរៀបចំកម្មវិធីអភិវឌ្ឍយុវជន និងសកម្មភាពកីឡានានា។</p>
+            </div>
+        </div>
     </section>
 
     <section>
         <h2><i class="fas fa-briefcase"></i> ជីវប្រវត្តិការងារ</h2>
         <div class="timeline">
             <div class="timeline-item">
-                <span class="year-tag">២០៣៧ - ២០៣៨</span>
-                <p><b>គ្រូវិទ្យាសាស្ត្រកុំព្យូទ័រ</b>: បម្រើការងាររយៈពេល ២ ឆ្នាំ。</p>
+                <span class="year">២០៣០ - ២០៣១</span>
+                <span class="role">កីឡាករអាជីព (INF Clairefontaine)</span>
+                <p>បម្រើការជាកីឡាករអាជីពនៅសាលាបណ្ដុះបណ្ដាលលំដាប់ពិភពលោកក្នុងប្រទេសបារាំង រយៈពេល ២ ឆ្នាំ។</p>
             </div>
             <div class="timeline-item">
-                <span class="year-tag">២០៣៩ - ២០៤១</span>
-                <p><b>គ្រូកីឡាវិទ្យា នៅក្រុម FFC (U18)</b>: បម្រើការងារនៅសហព័ន្ធកីឡាបាល់ទាត់កម្ពុជា រយៈពេល ៣ ឆ្នាំ。</p>
+                <span class="year">២០៣៦ - ២០៣៧</span>
+                <span class="role">គ្រូវិទ្យាសាស្ត្រកុំព្យូទ័រ (Computer Science Instructor)</span>
+                <p>ចាប់ផ្ដើមការងារជាគ្រូជំនាញផ្នែកកុំព្យូទ័រ បន្ទាប់ពីបញ្ចប់ការសិក្សានៅសាកលវិទ្យាល័យ។</p>
+            </div>
+            <div class="timeline-item">
+                <span class="year">២០៣៩ - ២០៤០</span>
+                <span class="role">គ្រូកីឡាវិទ្យា នៅក្រុម FFC (U18)</span>
+                <p>បម្រើការងារនៅសហព័ន្ធកីឡាបាល់ទាត់កម្ពុជា សម្រាប់ក្រុមយុវជនអាយុក្រោម ១៨ ឆ្នាំ រយៈពេល ៣ ឆ្នាំ។</p>
             </div>
         </div>
     </section>
+
+    <section>
+        <h2><i class="fas fa-check-circle"></i> ការបញ្ចប់ការងារ និងបច្ចុប្បន្នភាព</h2>
+        <p class="bio-text">
+            លោក <b>តី ឧត្តមបញ្ញា</b> បានបញ្ចប់ការងារជាផ្លូវការនៅថ្ងៃទី <b>១៤/១១/២០៤០</b> ក្នុងវ័យ ៣០ ឆ្នាំ។ បន្ទាប់មក លោកបានបន្តបេសកកម្មថ្មីដោយធ្វើជា <b>ប្រធានក្រុមបណ្ដុះបណ្ដាល</b> ប្រចាំសាកលវិទ្យាល័យល្បីៗនៅសហរដ្ឋអាមេរិក រួមមាន <b>University of Kansas</b> និង <b>University of Akron</b> រហូតដល់សព្វថ្ងៃនេះ។
+        </p>
+    </section>
+</div>
+
+<div class="footer">
+    <p>&copy; ២០២៦ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ École Jeannine Manuel (Paris)</p>
 </div>
 
 </body>

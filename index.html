@@ -3,27 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ជីវប្រវត្តិពេញលេញ | តី ឧត្តមបញ្ញា</title>
+    <title>ជីវប្រវត្តិផ្លូវការ | តី ឧត្តមបញ្ញា</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         :root {
-            --primary-color: #002366;
-            --secondary-color: #0044ff;
-            --accent-color: #ffd700;
-            --bg-color: #f4f7f6;
+            --primary: #002366;
+            --secondary: #0044ff;
+            --accent: #ffd700;
+            --bg-light: #f8f9fa;
         }
         body {
-            font-family: 'Khmer OS Battambang', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: var(--bg-color);
+            font-family: 'Khmer OS Battambang', sans-serif;
+            background-color: var(--bg-light);
             margin: 0;
-            color: #333;
+            color: #2c3e50;
             line-height: 1.8;
         }
         header {
             background: linear-gradient(rgba(0,35,102,0.85), rgba(0,35,102,0.85)), url('https://i.ibb.co/q3XNmR2S/k1e4rx.jpg');
+            background-size: cover;
             background-position: center;
             color: white;
-            padding: 80px 20px;
+            padding: 100px 20px;
             text-align: center;
         }
         .profile-img {
@@ -31,97 +32,91 @@
             height: 180px;
             border-radius: 50%;
             border: 6px solid white;
-            box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
             object-fit: cover;
             margin-bottom: 20px;
         }
         .container {
-            max-width: 900px;
+            max-width: 950px;
             margin: -60px auto 60px;
             background: white;
-            padding: 50px;
-            border-radius: 20px;
-            box-shadow: 0 15px 35px rgba(0,0,0,0.1);
+            padding: 60px;
+            border-radius: 25px;
+            box-shadow: 0 20px 50px rgba(0,0,0,0.1);
         }
-        h1 { margin: 10px 0; font-size: 2.5rem; }
+        h1 { margin: 10px 0; font-size: 2.8rem; }
         h2 {
-            color: var(--primary-color);
-            border-bottom: 3px solid var(--accent-color);
-            display: inline-block;
-            padding-bottom: 5px;
-            margin-top: 40px;
+            color: var(--primary);
+            border-left: 6px solid var(--accent);
+            padding-left: 20px;
+            margin-top: 50px;
             font-size: 1.8rem;
         }
-        .bio-text {
+        .bio-content {
             text-indent: 50px;
             text-align: justify;
-            margin-bottom: 20px;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
         }
         .timeline {
-            border-left: 3px solid #eee;
-            margin: 30px 0;
-            padding-left: 30px;
+            border-left: 4px solid #e9ecef;
+            margin: 40px 0 40px 20px;
+            padding-left: 40px;
             position: relative;
         }
         .timeline-item {
-            margin-bottom: 40px;
+            margin-bottom: 50px;
             position: relative;
         }
         .timeline-item::before {
             content: "";
-            background: var(--secondary-color);
-            width: 20px;
-            height: 20px;
+            background: var(--secondary);
+            width: 22px;
+            height: 22px;
             border-radius: 50%;
             position: absolute;
-            left: -43px;
+            left: -53px;
             top: 5px;
             border: 4px solid white;
-            box-shadow: 0 0 8px rgba(0,0,0,0.2);
+            box-shadow: 0 0 10px rgba(0,0,0,0.15);
         }
-        .year {
+        .year-tag {
             font-weight: bold;
-            color: var(--secondary-color);
-            ៖ <img src="https://i.ibb.co/q3XNmR2S/k1e4rx.jpg" alt="តី ឧត្តមបញ្ញា" class="profile-img">
-            display: block;
-        }
-        .institution {
-            font-weight: bold;
-            color: var(--primary-color);
+            color: var(--secondary);
             font-size: 1.2rem;
-            display: block;
-            margin: 5px 0;
+            display: inline-block;
+            background: #eef2ff;
+            padding: 2px 15px;
+            border-radius: 50px;
+            margin-bottom: 10px;
         }
-        .description {
-            font-size: 1rem;
-            color: #555;
+        .role {
+            font-weight: bold;
+            color: var(--primary);
+            font-size: 1.3rem;
+            display: block;
         }
         .footer {
             text-align: center;
-            padding: 40px;
-            background: #1a1a1a;
-            color: white;
-            font-size: 0.9rem;
-        }
-        .highlight {
-            color: var(--secondary-color);
-            font-weight: bold;
+            padding: 50px;
+            background: #111;
+            color: #888;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <img src="https://i.ibb.co/6ndf02R/image.png" alt="តី ឧត្តមបញ្ញា" class="profile-img">
+    <img src="https://i.ibb.co/q3XNmR2S/k1e4rx.jpg" alt="តី ឧត្តមបញ្ញា" class="profile-img">
     <h1>តី ឧត្តមបញ្ញា</h1>
-    <p>អ្នកឯកទេសវិទ្យាសាស្ត្រកុំព្យូទ័រ និង គ្រូបង្វឹកកីឡាជាន់ខ្ពស់</p>
+    <p>Computer Science Specialist | FFC U18 Coach</p>
 </header>
 
 <div class="container">
     <section>
-        <h2><i class="fas fa-user-tie"></i> ប្រវត្តិកំណើត និងការរស់នៅ</h2>
-        <p class="bio-text">
-            លោក <b>តី ឧត្តមបញ្ញា</b> បានចាប់កំណើតនៅឆ្នាំ <span class="highlight">២០០៨</span> នា ទីក្រុងប៉ារីស ប្រទេសបារាំង។ បន្ទាប់មកនៅក្នុងឆ្នាំ <span class="highlight">២០១០</span> លោកបានផ្លាស់ប្តូរមករស់នៅប្រទេសកម្ពុជាវិញ ដែលមានទីលំនៅបច្ចុប្បន្នស្ថិតនៅក្នុង ភូមិស្វាយពង្រ្កង់ សង្កាត់កោះអន្លង់ចិន ក្រុងតាខ្មៅ ខេត្តកណ្ដាល។
+        <h2><i class="fas fa-history"></i> ប្រវត្តិកំណើត និងការរស់នៅ</h2>
+        <p class="bio-content">
+            លោក <b>តី ឧត្តមបញ្ញា</b> បានចាប់កំណើតនៅឆ្នាំ ២០០៨ នា ទីក្រុងប៉ារីស ប្រទេសបារាំង។ បន្ទាប់ពីបានចំណាយពេលវ័យកុមារនៅទីនោះ ក្នុងឆ្នាំ ២០១០ លោកបានផ្លាស់ប្តូរមករស់នៅមាតុភូមិកម្ពុជាវិញ ដោយមានទីលំនៅបច្ចុប្បន្នស្ថិតនៅ ភូមិស្វាយពង្រ្កង់ សង្កាត់កោះអន្លង់ចិន ក្រុងតាខ្មៅ ខេត្តកណ្ដាល។
         </p>
     </section>
 
@@ -129,34 +124,34 @@
         <h2><i class="fas fa-graduation-cap"></i> ជីវប្រវត្តិការសិក្សា</h2>
         <div class="timeline">
             <div class="timeline-item">
-                <span class="year">២០១២</span>
-                <span class="institution">សាលាបឋមសិក្សា École Jeannine Manuel (Paris)</span>
-                <p class="description">ចាប់ផ្ដើមបោះជំហានដំបូងក្នុងវិស័យអប់រំ ដោយសិក្សាភាសាបារាំងនៅប្រទេសបារាំង។</p>
+                <span class="year-tag">២០១២</span>
+                <span class="role">សាលាបឋមសិក្សា École Jeannine Manuel (បារាំង)</span>
+                <p>ចាប់ផ្ដើមការសិក្សាភាសាបារាំងដំបូងនៅទីក្រុងប៉ារីស។</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០១៣ - ២០២១</span>
-                <span class="institution">សាលាបឋមសិក្សា ហ៊ុន សែន កោះអន្លង់ចិន</span>
-                <p class="description">បន្ទាប់ពីដូរមករស់នៅប្រទេសកម្ពុជា លោកបានបន្តការសិក្សាកម្រិតបឋមសិក្សាយ៉ាងខ្ជាប់ខ្ជួន។</p>
+                <span class="year-tag">២០១៣ - ២០២១</span>
+                <span class="role">សាលាបឋមសិក្សា ហ៊ុន សែន កោះអន្លង់ចិន</span>
+                <p>បញ្ចប់ការសិក្សាកម្រិតបឋមសិក្សានៅកម្ពុជា។</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០២២ - ២០២៥</span>
-                <span class="institution">អនុវិទ្យាល័យ ហ.ស សេរីភាព</span>
-                <p class="description">បន្តការសិក្សាកម្រិតអនុវិទ្យាល័យ និងទទួលបានចំណេះដឹងមូលដ្ឋានយ៉ាងរឹងមាំ។</p>
+                <span class="year-tag">២០២២ - ២០២៥</span>
+                <span class="role">អនុវិទ្យាល័យ ហ.ស សេរីភាព</span>
+                <p>សិក្សាកម្រិតអនុវិទ្យាល័យ។</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០២៥ - ២០២៦</span>
-                <span class="institution">អនុវិទ្យាល័យ ហ.ស តាខ្មៅ</span>
-                <p class="description">ផ្លាស់ប្តូរសាលាបន្តការសិក្សា និងបញ្ចប់កម្រិតអនុវិទ្យាល័យនៅទីនេះ។</p>
+                <span class="year-tag">២០២៥</span>
+                <span class="role">អនុវិទ្យាល័យ ហ.ស តាខ្មៅ</span>
+                <p>បញ្ចប់ការសិក្សាកម្រិតអនុវិទ្យាល័យ។</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០២៦ - ២០២៨</span>
-                <span class="institution">វិទ្យាល័យ ហ.ស តាខ្មៅ</span>
-                <p class="description">សិក្សាកម្រិតវិទ្យាល័យ និងបានប្រឡងបញ្ចប់សញ្ញាបត្រមធ្យមសិក្សាទុតិយភូមិ ដោយទទួលបាន <span class="highlight">និទ្ទេស A+</span>។</p>
+                <span class="year-tag">២០២៦ - ២០២៨</span>
+                <span class="role">វិទ្យាល័យ ហ.ស តាខ្មៅ</span>
+                <p>បញ្ចប់កម្រិតវិទ្យាល័យ ដោយទទួលបាននិទ្ទេស A+។</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០២៩ - ២០៣៦</span>
-                <span class="institution">Paris Sciences et Lettres – PSL Research University (Paris)</span>
-                <p class="description">បន្តការសិក្សាថ្នាក់ឧត្តមសិក្សានៅសាកលវិទ្យាល័យលំដាប់ពិភពលោកក្នុងប្រទេសបារាំង រហូតដល់បញ្ចប់ការសិក្សា។</p>
+                <span class="year-tag">២០២៩ - ២០៣៦</span>
+                <span class="role">សាកលវិទ្យាល័យ Paris Sciences et Lettres (PSL)</span>
+                <p>បន្តការសិក្សាថ្នាក់ឧត្តមសិក្សានៅសាកលវិទ្យាល័យស្រាវជ្រាវ PSL នាទីក្រុងប៉ារីស។</p>
             </div>
         </div>
     </section>
@@ -165,23 +160,22 @@
         <h2><i class="fas fa-briefcase"></i> ជីវប្រវត្តិការងារ</h2>
         <div class="timeline">
             <div class="timeline-item">
-                <span class="year">២០៣៧ - ២០៣៨</span>
-                <span class="institution">គ្រូវិទ្យាសាស្ត្រកុំព្យូទ័រ (Computer Science Instructor)</span>
-                <p class="description">ចាប់ផ្ដើមអាជីពដំបូងបន្ទាប់ពីបញ្ចប់ការសិក្សា ដោយបានផ្ដល់ចំណេះដឹងបច្ចេកវិទ្យារយៈពេល ២ ឆ្នាំ។</p>
+                <span class="year-tag">២០៣៧ - ២០Check</span>
+                <span class="role">គ្រូវិទ្យាសាស្ត្រកុំព្យូទ័រ (Computer Science Instructor)</span>
+                <p>បម្រើការងាររយៈពេល ២ ឆ្នាំ (២០៣៧ ដល់ ២០៣៨)។</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០៣៩ - ២០៤១</span>
-                <span class="institution">គ្រូកីឡាវិទ្យា នៅក្រុម FFC (U18)</span>
-                <p class="description">បម្រើការងារនៅសហព័ន្ធកីឡាបាល់ទាត់កម្ពុជា (Football Federation of Cambodia) សម្រាប់ក្រុមយុវជនក្រោមអាយុ ១៨ ឆ្នាំ រយៈពេល ៣ ឆ្នាំ។</p>
+                <span class="year-tag">២០Check - ២០៤១</span>
+                <span class="role">គ្រូកីឡាវិទ្យា នៅក្រុម FFC (U18)</span>
+                <p>បម្រើការងារនៅសហព័ន្ធកីឡាបាល់ទាត់កម្ពុជា រយៈពេល ៣ ឆ្នាំ (២០៣៩ ដល់ ២០៤១)។</p>
             </div>
         </div>
     </section>
 </div>
 
 <div class="footer">
-    <p>&copy; ២០២៦ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ Paris Sciences et Lettres – PSL Research University Paris</p>
-    <p>រៀបចំ និងរចនាឡើងសម្រាប់ជាជីវប្រវត្តិផ្លូវការ</p>
+    <p>&copy; ២០២៦ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ Paris Sciences et Lettres – PSL Research University (Paris)</p>
 </div>
 
 </body>
-</html> 
+</html>

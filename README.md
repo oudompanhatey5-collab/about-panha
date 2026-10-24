@@ -25,13 +25,13 @@
 <header>
     <img src="https://i.ibb.co/6ndf02R/image.png" alt="តី ឧត្តមបញ្ញា" class="profile-img">
     <h1>តី ឧត្តមបញ្ញា (Tei Oudom Panha)</h1>
-    <p>អ្នកឯកទេសវិទ្យាសាស្ត្រកុំព្យូទ័រ & គ្រូបង្វឹកកីឡាជាន់ខ្ពស់</p>
+    <p>អ្នកឯកទេសវិទ្យាសាស្ត្រកុំព្យូទ័រ</p>
 </header>
 
 <div class="container">
     <section>
         <h2><i class="fas fa-user-tie"></i> ប្រវត្តិកំណើត</h2>
-        <p>លោក <b>តី ឧត្តមបញ្ញា</b> កើតនៅឆ្នាំ <b>២០០៨</b> នាទីក្រុងប៉ារីស ប្រទេសបារាំង។ នៅឆ្នាំ ២០១០ លោកបានផ្លាស់ប្តូរមកមករស់នៅប្រទេសកម្ពុជាវិញ ដែលមានទីលំនៅស្ថិតនៅ ភូមិស្វាយពង្រ្កង់ សង្កាត់កោះអន្លង់ចិន ក្រុងតាខ្មៅ ខេត្តកណ្ដាល។</p>
+        <p>លោក <b>តី ឧត្តមបញ្ញា</b> កើតនៅឆ្នាំ <b>2010</b>នៅ ភូមិស្វាយពង្រ្កង់ សង្កាត់កោះអន្លង់ចិន ក្រុងតាខ្មៅ ខេត្តកណ្ដាល។</p>
     </section>
 
     <section>
@@ -39,56 +39,34 @@
         <div class="timeline">
             <div class="timeline-item">
                 <span class="year">២០១២</span>
-                <span class="title-at">បឋមសិក្សា École Jeannine Manuel (បារាំង)</span>
-                <p>ចាប់ផ្តើមសិក្សាភាសាបារាំងដំបូងនៅទីក្រុងប៉ារីស។</p>
+                <span class="title-at">បឋមសិក្សា ហ៊ុនសែន កោះអន្លង់ចិន</span>
+        </p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០១៣ - ២០២១</span>
-                <span class="title-at">បឋមសិក្សា ហ៊ុន សែន កោះអន្លង់ចិន</span>
-                <p>បន្តការសិក្សាកម្រិតបឋមសិក្សានៅកម្ពុជា។</p>
-            </div>
-            <div class="timeline-item">
-                <span class="year">២០២២ - ២០២៥</span>
+                <span class="year">2020 - 2024</span>
                 <span class="title-at">អនុវិទ្យាល័យ ហ.ស សេរីភាព</span>
-                <p>សិក្សាកម្រិតអនុវិទ្យាល័យ។</p>
+                <p>សិក្សាកម្រិតអនុវិទ្យាល័យនិងវិទ្យាល័យ</p>
             </div>
             <div class="timeline-item">
-                <span class="year">២០២៥ - ២០២៦</span>
-                <span class="title-at">អនុវិទ្យាល័យ ហ.ស តាខ្មៅ</span>
-                <p>បញ្ចប់ការសិក្សាកម្រិតអនុវិទ្យាល័យ។</p>
-            </div>
-            <div class="timeline-item">
-                <span class="year">២០២៦ - ២០២៨</span>
-                <span class="title-at">វិទ្យាល័យ ហ.ស តាខ្មៅ</span>
-                <p>បញ្ចប់សញ្ញាបត្រមធ្យមសិក្សាទុតិយភូមិ ទទួលបាននិទ្ទេស A+។</p>
-            </div>
-            <div class="timeline-item">
-                <span class="year">២០២៩ - ២០៣៦</span>
-                <span class="title-at">សាកលវិទ្យាល័យ Paris Sciences et Lettres (PSL)</span>
-                <p>បន្តការសិក្សាថ្នាក់សាកលវិទ្យាល័យនៅប្រទេសបារាំង។</p>
+                <span class="year">2024 - បច្ចុប្បន្ន</span>
             </div>
         </div>
     </section>
 
     <section>
-        <h2><i class="fas fa-briefcase"></i> ជីវប្រវត្តិការងារ</h2>
+        <h2><i class="fas fa-briefcase"></i>បទពិសោធន៍ក្នុងសង្គម</h2>
         <div class="timeline">
             <div class="timeline-item">
-                <span class="year">២០៣៧ - ២០៣៨</span>
+                <span class="year">2022 - 2024</span>
                 <span class="title-at">គ្រូវិទ្យាសាស្ត្រកុំព្យូទ័រ (Computer Science Instructor)</span>
-                <p>ផ្ដល់ចំណេះដឹងផ្នែកបច្ចេកវិទ្យា រយៈពេល ២ ឆ្នាំ។</p>
-            </div>
-            <div class="timeline-item">
-                <span class="year">២០៣៩ - ២០៤១</span>
-                <span class="title-at">គ្រូបង្វឹកកីឡាវិទ្យា (FFC U18)</span>
-                <p>បម្រើការងារនៅសហព័ន្ធកីឡាបាល់ទាត់កម្ពុជា រយៈពេល ៣ ឆ្នាំ។</p>
+                <p>ផ្ដល់ចំណេះដឹងផ្នែកបច្ចេកវិទ្យា រយៈពេល 1 ឆ្នាំ។</p>
             </div>
         </div>
     </section>
 </div>
 
 <div class="footer">
-    &copy; ២០២៦ រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ តី ឧត្តមបញ្ញា
+    &copy; 2026-2027 រក្សាសិទ្ធិគ្រប់យ៉ាងដោយ វិទ្យាល័យហ៊ុនសែនតាខ្មៅ
 </div>
 
 </body>
